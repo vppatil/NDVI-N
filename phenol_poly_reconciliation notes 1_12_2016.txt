@@ -1,0 +1,17 @@
+#ok- so first you need to reproduce the results with double third order curve using the new code- study what happens in phenol_poly func and ndvi_phenol_poly vs. the new code and figure it out.
+
+#Then, once you have reconciled the two, compare the third order curves with your other approach with model averaging, using the lognormal curve
+
+#if the thirdorder curve continues to perform, you need to include first date of sampling in the table to illustrate the problem/solution- what determines when you start?
+
+#also mention that using median vals isn't a fatal problem after all, and makes the most sense to me.
+
+files to compare
+
+aksciencecenterfiles from drive/Code/phenolcurve_old12302015.r
+from chromebook/phenolcurve1072015.r
+
+reproduce results from ndvi_phenolpoly_func.
+most recently used old code in aksciencecenterfiles from drive/Code/NDVI_pctN_nonlin1122016.r
+most recently used new code in chromebook/ndvi_pn_phenol_1072015.r
+
